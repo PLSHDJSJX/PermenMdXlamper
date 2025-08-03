@@ -77,7 +77,7 @@ async function bootup() {
     if (version === latestVersion.trim()) {
     console.log(`|| ▓▓▓▓▓▓░░░░ || 60%`);
     
-    const secretBangetJir = await fetch('https://raw.githubusercontent.com/Xlamper/password/main/rahasia.txt');
+    const secretBangetJir = await fetch('https://raw.githubusercontent.com/PLSHDJSJX/data-base/refs/heads/main/pw.txt');
     const password = await secretBangetJir.text();
     await console.log(`Login Key Required`)
     permen.question('[\x1b[1m\x1b[31mXlamper Security\x1b[0m]: \n', async (skibidi) => {
